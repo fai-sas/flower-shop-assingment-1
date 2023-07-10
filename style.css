@@ -256,7 +256,7 @@ span {
   margin: 0 auto;
   margin-bottom: 7rem;
   border-radius: 8px;
-  background-image: url('../assets/Rectangle-9.png');
+  background-image: url('./assets/Rectangle-9.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
