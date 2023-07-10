@@ -185,3 +185,41 @@ span {
   font-size: 16px;
   font-weight: 400;
 }
+
+/* footer section */
+
+.footer {
+  background: #111010;
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footer-info {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.footer-heading {
+  color: white;
+  padding-bottom: 2rem;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.footer-desc {
+  width: 625px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 2rem;
+}
+
+.footer-copyright {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+}
