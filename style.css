@@ -25,31 +25,32 @@ body {
 
 .banner-heading {
   color: #272727;
-  font-size: 80px;
+  font-size: 5rem;
   font-weight: 800;
 }
 
 .banner-desc {
-  width: 634px;
+  width: 40rem;
   color: rgba(39, 39, 39, 0.6);
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 1.8;
   padding: 2rem 0;
 }
 
 .btn {
   color: #fff;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   background: #e55473;
-  padding: 20px 43px;
+  padding: 1.25rem 2.5rem;
   border: none;
+  cursor: pointer;
 }
 
 .banner-image {
-  width: 635px;
+  width: 40rem;
 }
 
 /* featured flowers section */
@@ -68,7 +69,7 @@ body {
   color: #272727;
   text-align: center;
   font-family: Lato;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 800;
 }
 
@@ -76,10 +77,10 @@ body {
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
   font-family: Lato;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
-  line-height: 30px;
-  width: 594px;
+  line-height: 1.8;
+  width: 40rem;
   margin: 0 auto;
   padding: 1rem 0;
 }
@@ -93,36 +94,36 @@ body {
 }
 
 .featured-flower-image-1 {
-  width: 464px;
-  height: 538px;
-  border-radius: 300px 300px 0px 0px;
+  width: 29rem;
+  height: 34rem;
+  border-radius: 18.75rem 18.75rem 0 0;
   background: rgba(167, 33, 98, 0.15);
   background-image: url('./assets/pngwing-6.png');
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: 310px 428px;
+  background-size: 19rem 26.75rem;
 }
 
 .featured-flower-image-2 {
-  width: 464px;
-  height: 538px;
-  border-radius: 300px 300px 0px 0px;
+  width: 29rem;
+  height: 34rem;
+  border-radius: 18.75rem 18.75rem 0 0;
   background: rgba(5, 151, 160, 0.15);
   background-image: url('./assets/pngwing-5.png');
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: 310px 428px;
+  background-size: 19rem 26.75rem;
 }
 
 .featured-flower-image-3 {
-  width: 464px;
-  height: 538px;
-  border-radius: 300px 300px 0 0;
+  width: 29rem;
+  height: 34rem;
+  border-radius: 18.75rem 18.75rem 0 0;
   background: rgba(71, 125, 17, 0.15);
   background-image: url('./assets/pngwing-7.png');
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: 310px 428px;
+  background-size: 19rem 26.75rem;
 }
 
 .featured-flower-title {
@@ -135,9 +136,9 @@ body {
 
 .featured-flower-caption {
   color: #272727;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
-  line-height: 35px;
+  line-height: 1.8;
   text-decoration-line: underline;
 }
 
@@ -158,7 +159,7 @@ body {
   display: block;
   width: 40%;
   object-fit: cover;
-  border-radius: 0 0 200px 0;
+  border-radius: 0 0 12.5rem 0;
 }
 
 .about-title {
@@ -175,17 +176,17 @@ body {
 
 .about-us-heading {
   color: #272727;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 800;
   padding-bottom: 2rem;
 }
 
 .about-us-desc {
   color: rgba(39, 39, 39, 0.6);
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
-  line-height: 30px;
-  width: 594px;
+  line-height: 1.8;
+  width: 37rem;
   padding-bottom: 2rem;
 }
 
@@ -203,16 +204,60 @@ body {
 
 .occasions-desc {
   color: rgba(39, 39, 39, 0.6);
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
-  line-height: 30px;
-  width: 594px;
+  line-height: 1.8;
+  width: 37rem;
   padding-bottom: 2rem;
   padding-top: 2rem;
 }
 
 span {
   color: #e55473;
+}
+
+/* custom section - about us */
+
+.shop-new-arrivals {
+  display: flex;
+  gap: 2rem;
+  max-width: 80vw;
+  margin: 2rem auto;
+  padding: 5rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  width: 25rem;
+  background-color: rgba(229, 84, 115, 0.05);
+  box-shadow: rgba(229, 84, 115, 0.2) 0 3rem 6rem 0;
+  border-radius: 1rem;
+  transition: 0.4s ease-in all;
+}
+
+.card-image {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.card-title {
+  font-size: 2rem;
+  padding: 1.5rem;
+}
+
+.card-desc {
+  line-height: 1.5;
+  padding: 1.5rem;
+  padding-top: 0;
+  font-weight: 700;
+}
+
+.card-btn {
+  text-align: center;
+  margin: 2rem auto 5rem;
+  display: block;
 }
 
 /* company features section */
@@ -222,8 +267,8 @@ span {
 }
 
 .company-info {
-  width: 1440px;
-  height: 320px;
+  width: 90rem;
+  height: 20rem;
   flex-shrink: 0;
   margin: 0 auto;
   margin-bottom: 7rem;
@@ -233,17 +278,17 @@ span {
   gap: 2rem;
   justify-content: space-evenly;
   align-items: center;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   background: rgba(39, 39, 39, 0.05);
 }
 
 .company-features-heading {
   color: rgba(39, 39, 39, 0.8);
   text-align: center;
-  font-size: 24px;
+  font-size: 1.5rem;
   padding-top: 1rem;
   font-weight: 600;
-  line-height: 35px;
+  line-height: 1.8;
 }
 
 /* hot deal section */
@@ -251,7 +296,7 @@ span {
 .hot-deal-section {
   height: 50vh;
   padding: 6rem;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   background: rgba(229, 84, 115, 0.05);
   display: flex;
   justify-content: center;
@@ -263,7 +308,7 @@ span {
 
 .hot-deal-heading {
   color: #272727;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 800;
   text-align: center;
   padding-bottom: 2rem;
@@ -272,10 +317,10 @@ span {
 .hot-deal-desc {
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
-  line-height: 30px;
-  width: 594px;
+  line-height: 1.8;
+  width: 37rem;
   padding-bottom: 2rem;
 }
 
@@ -298,7 +343,7 @@ span {
   color: #272727;
   text-align: center;
   font-family: Lato;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 800;
 }
 
@@ -306,10 +351,10 @@ span {
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
   font-family: Lato;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
-  line-height: 30px;
-  width: 594px;
+  line-height: 1.8;
+  width: 37rem;
   margin: 0 auto;
   padding-top: 2rem;
 }
@@ -325,11 +370,11 @@ span {
 
 .latest-deal-section {
   background-color: #272727;
-  width: 1440px;
-  height: 449px;
+  width: 90rem;
+  height: 28rem;
   margin: 0 auto;
   margin-bottom: 7rem;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   background-image: url('./assets/Rectangle-9.png');
   background-repeat: no-repeat;
   background-position: center;
@@ -343,7 +388,7 @@ span {
   color: #272727;
   text-align: center;
   font-family: Lato;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 800;
   padding-bottom: 1rem;
 }
@@ -352,9 +397,9 @@ span {
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
   font-family: Lato;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 1.8;
   padding-bottom: 2rem;
 }
 
@@ -366,9 +411,9 @@ span {
 }
 
 .subscribe-input {
-  width: 700px;
-  height: 64px;
-  border-radius: 8px;
+  width: 44rem;
+  height: 4rem;
+  border-radius: 0.5rem;
   background: #fff;
   border: none;
   padding: 1rem;
@@ -376,7 +421,7 @@ span {
 
 .subscribe-input::placeholder {
   color: rgba(39, 39, 39, 0.6);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
 }
 
@@ -399,21 +444,21 @@ span {
 .footer-heading {
   color: white;
   padding-bottom: 2rem;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 800;
 }
 
 .footer-desc {
   width: 625px;
   color: rgba(255, 255, 255, 0.9);
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 1.8;
   padding-bottom: 2rem;
 }
 
 .footer-copyright {
   color: rgba(255, 255, 255, 0.4);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
 }
