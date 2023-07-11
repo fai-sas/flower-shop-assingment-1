@@ -117,7 +117,7 @@ body {
 .featured-flower-image-3 {
   width: 464px;
   height: 538px;
-  border-radius: 300px 300px 0px 0px;
+  border-radius: 300px 300px 0 0;
   background: rgba(71, 125, 17, 0.15);
   background-image: url('./assets/pngwing-7.png');
   background-repeat: no-repeat;
@@ -139,6 +139,80 @@ body {
   font-weight: 700;
   line-height: 35px;
   text-decoration-line: underline;
+}
+
+/* custom section - about us */
+
+.about-us-section {
+  height: 70vh;
+  width: 100%;
+  padding: 6rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 7rem 0;
+  text-align: center;
+}
+
+.about-us-image {
+  display: block;
+  width: 40%;
+  object-fit: cover;
+  border-radius: 0 0 200px 0;
+}
+
+.about-title {
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+  text-decoration: underline;
+  font-weight: 900;
+}
+
+.about-us-text {
+  text-align: left;
+  padding-right: 17rem;
+}
+
+.about-us-heading {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  padding-bottom: 2rem;
+}
+
+.about-us-desc {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 594px;
+  padding-bottom: 2rem;
+}
+
+.occasions {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.occasions ul > li {
+  color: rgba(39, 39, 39, 0.6);
+  line-height: 2;
+  font-weight: 600;
+}
+
+.occasions-desc {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 594px;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+span {
+  color: #e55473;
 }
 
 /* company features section */
