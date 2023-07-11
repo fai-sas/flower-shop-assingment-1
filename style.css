@@ -129,7 +129,7 @@ body {
 .featured-flower-title {
   display: flex;
   justify-content: center;
-  gap: 21rem;
+  gap: 19rem;
   align-items: center;
   padding: 2rem;
 }
@@ -294,7 +294,7 @@ span {
 /* hot deal section */
 
 .hot-deal-section {
-  height: 55vh;
+  height: 60vh;
   padding: 6rem;
   border-radius: 0.5rem;
   background: rgba(229, 84, 115, 0.05);
@@ -331,7 +331,7 @@ span {
 /* instagram section */
 
 .instagram-section {
-  margin-bottom: 7rem;
+  margin-bottom: 9rem;
 }
 
 .instagram-info {
@@ -373,7 +373,7 @@ span {
   width: 90rem;
   height: 28rem;
   margin: 0 auto;
-  margin-bottom: 7rem;
+  margin-bottom: 9rem;
   border-radius: 0.5rem;
   background-image: url('./assets/Rectangle-9.png');
   background-repeat: no-repeat;
